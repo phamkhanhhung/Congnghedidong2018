@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TapFragment2"
+    android:background="@drawable/rose4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        >
+        <TextView
+            android:id="@+id/txtTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Tên thật: Park Chae Young"
+            android:textColor="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/txtNgaySinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Ngày sinh: 11 tháng 2 năm 1997"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/txtNguoiThan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Vị trí: Vocalist cho nhóm Blackpink"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/txtHocVan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Chiều cao: 168cm – 170cm (5’6 “)
+    Cân nặng: 41 kg (99 lbs)"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/txtNgheNghiep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Cô ấy là người Hàn Quốc, nhưng cô ấy được sinh ra ở Auckland, New Zealand  và lớn lên ở Melbourne, Box Hill (Australia), nơi cô theo học  Canterbury Girls Secondary College."
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/txtTaiNang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Cô ấy có một chị gái, tên là Alice."
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
